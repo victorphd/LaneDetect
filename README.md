@@ -1,2 +1,1 @@
-# LaneDetect
-CS230
+# CULaneDetection
