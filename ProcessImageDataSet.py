@@ -14,8 +14,10 @@ import sys
 import gc
 
 currentDir = os.path.dirname(os.path.realpath(__file__))
-X_train_img = 'D:\\cs230-project\\driver_23_30frame\\' 
-Y_train_img = 'D:\\cs230-project\\repro\\seg_label_generate\\laneseg_label\\driver_23_30frame\\' 
+# X_train_img = 'D:\\cs230-project\\driver_23_30frame\\' 
+# Y_train_img = 'D:\\cs230-project\\repro\\seg_label_generate\\laneseg_label\\driver_23_30frame\\' 
+X_train_img = 'Macbook-Pro:/Users/victor/Desktop/CULaneDetection/Data/driver_23_30frame/' 
+Y_train_img = 'Macbook-Pro:/Users/victor/Desktop/CULaneDetection/Data/laneseg_label_w16/driver_23_30frame/' 
 
 X_train = []
 Y_train = []
